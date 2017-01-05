@@ -1,0 +1,15 @@
+{
+  "name": "ReduxTodoList",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node_modules/react-native/packager/packager.sh"
+  },
+  "dependencies": {
+    "hanzojs": "^0.0.7",
+    "lodash": "^4.17.3",
+    "react": "^15.4.0",
+    "react-native": "^0.39.0",
+    "redux-logger": "^2.7.4"
+  }
+}
