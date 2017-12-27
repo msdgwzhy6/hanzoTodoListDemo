@@ -17,15 +17,15 @@ class TodoApp extends Component {
     return (
       <View style={styles.container}>
         <TitleBar activeFilter={filter} showModal={showModal} />
-        <TodoList 
+        <TodoList
           activeFilter={filter}
-          todos={todos} 
+          todos={todos}
           addTodo={addTodo}
           completeTodo={completeTodo}
           incompleteTodo={incompleteTodo}
         />
-        <Filters 
-          activeFilter={filter} 
+        <Filters
+          activeFilter={filter}
           showAll={showAll}
           showCompleted={showCompleted}
           showIncomplete={showIncomplete}
